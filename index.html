@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Suhu Besok | Ayu Dwi Nengtias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #ff9800;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        .form-input table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .form-input th, .form-input td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .form-input th {
+            background: #ff9800;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        .card {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌡️ Sistem Prediksi Suhu Besok</h1>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang Sistem</a>
+        <a href="#prediksi">Prediksi Suhu</a>
+    </nav>
+
+    <div class="container" id="tentang">
+        <h2>👩‍💻 Data Diri Perancang</h2>
+        <div class="card">
+            <p><strong>Nama:</strong> Ayu Dwi Nengtias</p>
+            <p><strong>Prodi:</strong> Teknik Informatika</p>
+            <p><strong>Universitas:</strong> Universitas Muhammadiyah Riau</p>
+            <p><strong>Kontak:</strong> ayu@example.com</p>
+        </div>
+
+        <h2>📝 Deskripsi Sistem</h2>
+        <div class="card">
+            <p>Sistem ini adalah aplikasi prediksi suhu besok berbasis Deep Learning (LSTM) dengan data 7 hari terakhir. Fitur yang digunakan:</p>
+            <ul>
+                <li>Suhu (°C)</li>
+                <li>Kelembaban (%)</li>
+                <li>Kecepatan Angin (m/s)</li>
+                <li>Tekanan (hPa)</li>
+            </ul>
+            <p><strong>Tujuan Sistem:</strong> Membantu memprediksi suhu besok dan mempermudah perencanaan kegiatan harian.</p>
+        </div>
+
+        <h2>📖 Petunjuk / Instruksi</h2>
+        <div class="card">
+            <ol>
+                <li>Pilih menu Prediksi Suhu.</li>
+                <li>Masukkan data 7 hari terakhir di tabel input.</li>
+                <li>Klik tombol Prediksi Suhu Besok (di versi statis, prediksi tidak aktif).</li>
+                <li>Lihat grafik tren (di versi statis, hanya tabel terlihat).</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container" id="prediksi">
+        <h2>🌡️ Prediksi Suhu (Versi Statis)</h2>
+        <p>Masukkan data 7 hari terakhir di tabel berikut:</p>
+        <div class="form-input">
+            <table>
+                <tr>
+                    <th>Hari</th>
+                    <th>Suhu (°C)</th>
+                    <th>Kelembaban (%)</th>
+                    <th>Kecepatan Angin (m/s)</th>
+                    <th>Tekanan (hPa)</th>
+                </tr>
+                <tr><td>Hari 1</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+                <tr><td>Hari 2</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+                <tr><td>Hari 3</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+                <tr><td>Hari 4</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+                <tr><td>Hari 5</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+                <tr><td>Hari 6</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+                <tr><td>Hari 7</td><td>30</td><td>70</td><td>3</td><td>1010</td></tr>
+            </table>
+        </div>
+        <p><em>Catatan: Prediksi tidak aktif karena ini versi statis untuk GitHub Pages.</em></p>
+    </div>
+
+    <footer>
+        © 2026 Ayu Dwi Nengtias
+    </footer>
+</body>
+</html>
